@@ -1,0 +1,13 @@
+RewriteEngine on
+Options All -Indexes
+<FilesMatch "(\.(php|ini)|~)$">
+	Order Deny,Allow
+	Deny from all
+</FilesMatch>
+<Files index.php>
+	Order Allow,Deny
+	Allow from all
+</Files>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php
