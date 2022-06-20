@@ -6,4 +6,10 @@ class _Controller_Index extends _Controller {
 		// Place controller logic for loading the home page here
 	}
 
+	public function getFormTest() {
+	}
+
+	public function getLogin() {
+	}
+
 }
