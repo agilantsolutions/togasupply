@@ -4,7 +4,31 @@
 		<_Head />
 	</head>
 	<body class="full-height">
-		<_Component_Ui_Header namespace="togahub" />
+		<_Component_Ui_Header namespace="togahub">
+			<_Component_Ui_NavLink icon="table-rows" href="/form-test" rounded="sm">
+				Form Test
+			</_Component_Ui_NavLink>
+			<_Component_Ui_NavLinkDropdown icon="cart-flatbed" rounded="sm" label="Orders">
+				<_Component_Ui_NavLink icon="file-invoice-dollar" href="/orders" rounded="sm">
+					Sales Orders
+				</_Component_Ui_NavLink>
+				<_Component_Ui_NavLink icon="receipt" href="/orders" rounded="sm">
+					Purchase Orders
+				</_Component_Ui_NavLink>
+			</_Component_Ui_NavLinkDropdown>
+			<_Component_Ui_NavLink icon="reply" href="/returns" rounded="sm">
+				Returns
+			</_Component_Ui_NavLink>
+			<_Component_Ui_NavLink icon="gear" href="/settings" rounded="sm" spacer="xl">
+				Settings
+			</_Component_Ui_NavLink>
+			<_Component_Ui_NavLink icon="diagram-subtask" href="/workflows" rounded="sm">
+				Workflows
+			</_Component_Ui_NavLink>
+			<_Component_Ui_NavLink icon="cloud" href="/api" rounded="sm">
+				API
+			</_Component_Ui_NavLink>
+		</_Component_Ui_Header>
 		<_View />
 	</body>
 </html>

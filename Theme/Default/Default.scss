@@ -13,3 +13,24 @@
 @import '../../../togahub/Component/Ui/Table/Pagination/Pagination';
 
 // Note: listing each one out manually is crappy. We should find and include them dynamically. Plus we should use the @use command
+
+/* -------------------------------------------------------------------------- */
+/*                              GLOBAL APP STYLES                             */
+/* -------------------------------------------------------------------------- */
+
+.mainbar-wrapper {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	.mainbar {
+
+	}
+
+	.sidebar-wrapper {
+		.sidebar {
+			min-height: 50vh;
+			padding: $lg;
+		}
+	}
+}
+
+/* -------------------------- END GLOBAL APP STYLES ------------------------- */

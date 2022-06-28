@@ -12,4 +12,7 @@ class _Controller_Index extends _Controller {
 	public function getLogin() {
 	}
 
+	public function getOrders() {
+	}
+
 }
