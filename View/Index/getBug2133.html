@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="section">
+		<h1 class="page-title">Welcome to Bug 2133</h1>
+
+		<h3>This calls a component from a different namespace which is missing its variables and nested components</h3>
+		<_Component_Ui_Table namespace="togahub"/>
+
+		<h3>This bug tries to nest namespaces. Top-level component inherited the togasupply namespace, while the nested table is togahub namespace</h3>
+		<_Component_Ui_Bug2133></_Component_Ui_Bug2133>
+	</div>
+</div>
