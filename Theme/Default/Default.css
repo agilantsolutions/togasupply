@@ -17,16 +17,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 0px;
 }
 
+.-mt-0 {
+  margin-top: -0px;
+}
+
 .mr-0 {
   margin-right: 0px;
+}
+
+.-mr-0 {
+  margin-right: -0px;
 }
 
 .mb-0 {
   margin-bottom: 0px;
 }
 
+.-mb-0 {
+  margin-bottom: -0px;
+}
+
 .ml-0 {
   margin-left: 0px;
+}
+
+.-ml-0 {
+  margin-left: -0px;
 }
 
 .mx-0 {
@@ -34,9 +50,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 0px;
 }
 
+.-mx-0 {
+  margin-left: -0px;
+  margin-right: -0px;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.-my-0 {
+  margin-top: -0px;
+  margin-bottom: -0px;
 }
 
 .p-0 {
@@ -69,30 +95,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 0px;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.min-w-0 {
-  min-width: 0px;
-}
-
-.max-w-0 {
-  max-width: 0px;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.min-h-0 {
-  min-height: 0px;
-}
-
-.max-h-0 {
-  max-height: 0px;
-}
-
 .gap-0 {
   gap: 0px;
 }
@@ -113,16 +115,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 0.25rem;
 }
 
+.-mt-xxs {
+  margin-top: -0.25rem;
+}
+
 .mr-xxs {
   margin-right: 0.25rem;
+}
+
+.-mr-xxs {
+  margin-right: -0.25rem;
 }
 
 .mb-xxs {
   margin-bottom: 0.25rem;
 }
 
+.-mb-xxs {
+  margin-bottom: -0.25rem;
+}
+
 .ml-xxs {
   margin-left: 0.25rem;
+}
+
+.-ml-xxs {
+  margin-left: -0.25rem;
 }
 
 .mx-xxs {
@@ -130,9 +148,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 0.25rem;
 }
 
+.-mx-xxs {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
 .my-xxs {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.-my-xxs {
+  margin-top: -0.25rem;
+  margin-bottom: -0.25rem;
 }
 
 .p-xxs {
@@ -165,30 +193,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 0.25rem;
 }
 
-.w-xxs {
-  width: 0.25rem;
-}
-
-.min-w-xxs {
-  min-width: 0.25rem;
-}
-
-.max-w-xxs {
-  max-width: 0.25rem;
-}
-
-.h-xxs {
-  height: 0.25rem;
-}
-
-.min-h-xxs {
-  min-height: 0.25rem;
-}
-
-.max-h-xxs {
-  max-height: 0.25rem;
-}
-
 .gap-xxs {
   gap: 0.25rem;
 }
@@ -209,16 +213,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 0.5rem;
 }
 
+.-mt-xs {
+  margin-top: -0.5rem;
+}
+
 .mr-xs {
   margin-right: 0.5rem;
+}
+
+.-mr-xs {
+  margin-right: -0.5rem;
 }
 
 .mb-xs {
   margin-bottom: 0.5rem;
 }
 
+.-mb-xs {
+  margin-bottom: -0.5rem;
+}
+
 .ml-xs {
   margin-left: 0.5rem;
+}
+
+.-ml-xs {
+  margin-left: -0.5rem;
 }
 
 .mx-xs {
@@ -226,9 +246,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 0.5rem;
 }
 
+.-mx-xs {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
 .my-xs {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.-my-xs {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
 }
 
 .p-xs {
@@ -261,30 +291,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 0.5rem;
 }
 
-.w-xs {
-  width: 0.5rem;
-}
-
-.min-w-xs {
-  min-width: 0.5rem;
-}
-
-.max-w-xs {
-  max-width: 0.5rem;
-}
-
-.h-xs {
-  height: 0.5rem;
-}
-
-.min-h-xs {
-  min-height: 0.5rem;
-}
-
-.max-h-xs {
-  max-height: 0.5rem;
-}
-
 .gap-xs {
   gap: 0.5rem;
 }
@@ -305,16 +311,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 0.75rem;
 }
 
+.-mt-sm {
+  margin-top: -0.75rem;
+}
+
 .mr-sm {
   margin-right: 0.75rem;
+}
+
+.-mr-sm {
+  margin-right: -0.75rem;
 }
 
 .mb-sm {
   margin-bottom: 0.75rem;
 }
 
+.-mb-sm {
+  margin-bottom: -0.75rem;
+}
+
 .ml-sm {
   margin-left: 0.75rem;
+}
+
+.-ml-sm {
+  margin-left: -0.75rem;
 }
 
 .mx-sm {
@@ -322,9 +344,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 0.75rem;
 }
 
+.-mx-sm {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
 .my-sm {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.-my-sm {
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
 }
 
 .p-sm {
@@ -357,30 +389,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 0.75rem;
 }
 
-.w-sm {
-  width: 0.75rem;
-}
-
-.min-w-sm {
-  min-width: 0.75rem;
-}
-
-.max-w-sm {
-  max-width: 0.75rem;
-}
-
-.h-sm {
-  height: 0.75rem;
-}
-
-.min-h-sm {
-  min-height: 0.75rem;
-}
-
-.max-h-sm {
-  max-height: 0.75rem;
-}
-
 .gap-sm {
   gap: 0.75rem;
 }
@@ -401,16 +409,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 1rem;
 }
 
+.-mt-md {
+  margin-top: -1rem;
+}
+
 .mr-md {
   margin-right: 1rem;
+}
+
+.-mr-md {
+  margin-right: -1rem;
 }
 
 .mb-md {
   margin-bottom: 1rem;
 }
 
+.-mb-md {
+  margin-bottom: -1rem;
+}
+
 .ml-md {
   margin-left: 1rem;
+}
+
+.-ml-md {
+  margin-left: -1rem;
 }
 
 .mx-md {
@@ -418,9 +442,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 1rem;
 }
 
+.-mx-md {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 .my-md {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.-my-md {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
 }
 
 .p-md {
@@ -453,30 +487,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 1rem;
 }
 
-.w-md {
-  width: 1rem;
-}
-
-.min-w-md {
-  min-width: 1rem;
-}
-
-.max-w-md {
-  max-width: 1rem;
-}
-
-.h-md {
-  height: 1rem;
-}
-
-.min-h-md {
-  min-height: 1rem;
-}
-
-.max-h-md {
-  max-height: 1rem;
-}
-
 .gap-md {
   gap: 1rem;
 }
@@ -497,16 +507,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 1.5rem;
 }
 
+.-mt-lg {
+  margin-top: -1.5rem;
+}
+
 .mr-lg {
   margin-right: 1.5rem;
+}
+
+.-mr-lg {
+  margin-right: -1.5rem;
 }
 
 .mb-lg {
   margin-bottom: 1.5rem;
 }
 
+.-mb-lg {
+  margin-bottom: -1.5rem;
+}
+
 .ml-lg {
   margin-left: 1.5rem;
+}
+
+.-ml-lg {
+  margin-left: -1.5rem;
 }
 
 .mx-lg {
@@ -514,9 +540,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 1.5rem;
 }
 
+.-mx-lg {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
 .my-lg {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.-my-lg {
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
 }
 
 .p-lg {
@@ -549,30 +585,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 1.5rem;
 }
 
-.w-lg {
-  width: 1.5rem;
-}
-
-.min-w-lg {
-  min-width: 1.5rem;
-}
-
-.max-w-lg {
-  max-width: 1.5rem;
-}
-
-.h-lg {
-  height: 1.5rem;
-}
-
-.min-h-lg {
-  min-height: 1.5rem;
-}
-
-.max-h-lg {
-  max-height: 1.5rem;
-}
-
 .gap-lg {
   gap: 1.5rem;
 }
@@ -593,16 +605,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 2rem;
 }
 
+.-mt-xl {
+  margin-top: -2rem;
+}
+
 .mr-xl {
   margin-right: 2rem;
+}
+
+.-mr-xl {
+  margin-right: -2rem;
 }
 
 .mb-xl {
   margin-bottom: 2rem;
 }
 
+.-mb-xl {
+  margin-bottom: -2rem;
+}
+
 .ml-xl {
   margin-left: 2rem;
+}
+
+.-ml-xl {
+  margin-left: -2rem;
 }
 
 .mx-xl {
@@ -610,9 +638,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 2rem;
 }
 
+.-mx-xl {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
 .my-xl {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.-my-xl {
+  margin-top: -2rem;
+  margin-bottom: -2rem;
 }
 
 .p-xl {
@@ -645,30 +683,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 2rem;
 }
 
-.w-xl {
-  width: 2rem;
-}
-
-.min-w-xl {
-  min-width: 2rem;
-}
-
-.max-w-xl {
-  max-width: 2rem;
-}
-
-.h-xl {
-  height: 2rem;
-}
-
-.min-h-xl {
-  min-height: 2rem;
-}
-
-.max-h-xl {
-  max-height: 2rem;
-}
-
 .gap-xl {
   gap: 2rem;
 }
@@ -689,16 +703,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 3rem;
 }
 
+.-mt-xxl {
+  margin-top: -3rem;
+}
+
 .mr-xxl {
   margin-right: 3rem;
+}
+
+.-mr-xxl {
+  margin-right: -3rem;
 }
 
 .mb-xxl, .page-title {
   margin-bottom: 3rem;
 }
 
+.-mb-xxl {
+  margin-bottom: -3rem;
+}
+
 .ml-xxl {
   margin-left: 3rem;
+}
+
+.-ml-xxl {
+  margin-left: -3rem;
 }
 
 .mx-xxl {
@@ -706,9 +736,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 3rem;
 }
 
+.-mx-xxl {
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
 .my-xxl {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.-my-xxl {
+  margin-top: -3rem;
+  margin-bottom: -3rem;
 }
 
 .p-xxl {
@@ -741,30 +781,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 3rem;
 }
 
-.w-xxl {
-  width: 3rem;
-}
-
-.min-w-xxl {
-  min-width: 3rem;
-}
-
-.max-w-xxl {
-  max-width: 3rem;
-}
-
-.h-xxl {
-  height: 3rem;
-}
-
-.min-h-xxl {
-  min-height: 3rem;
-}
-
-.max-h-xxl {
-  max-height: 3rem;
-}
-
 .gap-xxl {
   gap: 3rem;
 }
@@ -785,16 +801,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 4rem;
 }
 
+.-mt-xxxl {
+  margin-top: -4rem;
+}
+
 .mr-xxxl {
   margin-right: 4rem;
+}
+
+.-mr-xxxl {
+  margin-right: -4rem;
 }
 
 .mb-xxxl {
   margin-bottom: 4rem;
 }
 
+.-mb-xxxl {
+  margin-bottom: -4rem;
+}
+
 .ml-xxxl {
   margin-left: 4rem;
+}
+
+.-ml-xxxl {
+  margin-left: -4rem;
 }
 
 .mx-xxxl {
@@ -802,9 +834,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 4rem;
 }
 
+.-mx-xxxl {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
 .my-xxxl {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.-my-xxxl {
+  margin-top: -4rem;
+  margin-bottom: -4rem;
 }
 
 .p-xxxl {
@@ -837,30 +879,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 4rem;
 }
 
-.w-xxxl {
-  width: 4rem;
-}
-
-.min-w-xxxl {
-  min-width: 4rem;
-}
-
-.max-w-xxxl {
-  max-width: 4rem;
-}
-
-.h-xxxl {
-  height: 4rem;
-}
-
-.min-h-xxxl {
-  min-height: 4rem;
-}
-
-.max-h-xxxl {
-  max-height: 4rem;
-}
-
 .gap-xxxl {
   gap: 4rem;
 }
@@ -881,16 +899,32 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-top: 8rem;
 }
 
+.-mt-xxxxl {
+  margin-top: -8rem;
+}
+
 .mr-xxxxl {
   margin-right: 8rem;
+}
+
+.-mr-xxxxl {
+  margin-right: -8rem;
 }
 
 .mb-xxxxl {
   margin-bottom: 8rem;
 }
 
+.-mb-xxxxl {
+  margin-bottom: -8rem;
+}
+
 .ml-xxxxl {
   margin-left: 8rem;
+}
+
+.-ml-xxxxl {
+  margin-left: -8rem;
 }
 
 .mx-xxxxl {
@@ -898,9 +932,19 @@ Once the map is finished, you can use classes that will evaluate to:
   margin-right: 8rem;
 }
 
+.-mx-xxxxl {
+  margin-left: -8rem;
+  margin-right: -8rem;
+}
+
 .my-xxxxl {
   margin-top: 8rem;
   margin-bottom: 8rem;
+}
+
+.-my-xxxxl {
+  margin-top: -8rem;
+  margin-bottom: -8rem;
 }
 
 .p-xxxxl {
@@ -933,30 +977,6 @@ Once the map is finished, you can use classes that will evaluate to:
   padding-bottom: 8rem;
 }
 
-.w-xxxxl {
-  width: 8rem;
-}
-
-.min-w-xxxxl {
-  min-width: 8rem;
-}
-
-.max-w-xxxxl {
-  max-width: 8rem;
-}
-
-.h-xxxxl {
-  height: 8rem;
-}
-
-.min-h-xxxxl {
-  min-height: 8rem;
-}
-
-.max-h-xxxxl {
-  max-height: 8rem;
-}
-
 .gap-xxxxl {
   gap: 8rem;
 }
@@ -969,7 +989,271 @@ Once the map is finished, you can use classes that will evaluate to:
   gap: 8rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /* ------------------------------- END SPACING ------------------------------ */
+/* -------------------------------------------------------------------------- */
+/*                                   SIZING                                   */
+/* -------------------------------------------------------------------------- */
+/* Create width/height classes for each of the sizes listed in the $sizing-map
+
+Once the map is finished, you can use classes that will evaluate to:
+	.w-xl (width: 40rem)
+	.max-h-sm (max-height: 18rem)
+*/
+.w-0 {
+  width: 0px;
+}
+
+.min-w-0 {
+  min-width: 0px;
+}
+
+.max-w-0 {
+  max-width: 0px;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.min-h-0 {
+  min-height: 0px;
+}
+
+.max-h-0 {
+  max-height: 0px;
+}
+
+.w-xxs {
+  width: 8rem;
+}
+
+.min-w-xxs {
+  min-width: 8rem;
+}
+
+.max-w-xxs {
+  max-width: 8rem;
+}
+
+.h-xxs {
+  height: 8rem;
+}
+
+.min-h-xxs {
+  min-height: 8rem;
+}
+
+.max-h-xxs {
+  max-height: 8rem;
+}
+
+.w-xs {
+  width: 12rem;
+}
+
+.min-w-xs {
+  min-width: 12rem;
+}
+
+.max-w-xs {
+  max-width: 12rem;
+}
+
+.h-xs {
+  height: 12rem;
+}
+
+.min-h-xs {
+  min-height: 12rem;
+}
+
+.max-h-xs {
+  max-height: 12rem;
+}
+
+.w-sm {
+  width: 18rem;
+}
+
+.min-w-sm {
+  min-width: 18rem;
+}
+
+.max-w-sm {
+  max-width: 18rem;
+}
+
+.h-sm {
+  height: 18rem;
+}
+
+.min-h-sm {
+  min-height: 18rem;
+}
+
+.max-h-sm {
+  max-height: 18rem;
+}
+
+.w-md {
+  width: 24rem;
+}
+
+.min-w-md {
+  min-width: 24rem;
+}
+
+.max-w-md {
+  max-width: 24rem;
+}
+
+.h-md {
+  height: 24rem;
+}
+
+.min-h-md {
+  min-height: 24rem;
+}
+
+.max-h-md {
+  max-height: 24rem;
+}
+
+.w-lg {
+  width: 32rem;
+}
+
+.min-w-lg {
+  min-width: 32rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.h-lg {
+  height: 32rem;
+}
+
+.min-h-lg {
+  min-height: 32rem;
+}
+
+.max-h-lg {
+  max-height: 32rem;
+}
+
+.w-xl {
+  width: 40rem;
+}
+
+.min-w-xl {
+  min-width: 40rem;
+}
+
+.max-w-xl {
+  max-width: 40rem;
+}
+
+.h-xl {
+  height: 40rem;
+}
+
+.min-h-xl {
+  min-height: 40rem;
+}
+
+.max-h-xl {
+  max-height: 40rem;
+}
+
+.w-xxl {
+  width: 52rem;
+}
+
+.min-w-xxl {
+  min-width: 52rem;
+}
+
+.max-w-xxl {
+  max-width: 52rem;
+}
+
+.h-xxl {
+  height: 52rem;
+}
+
+.min-h-xxl {
+  min-height: 52rem;
+}
+
+.max-h-xxl {
+  max-height: 52rem;
+}
+
+.w-xxxl {
+  width: 64rem;
+}
+
+.min-w-xxxl {
+  min-width: 64rem;
+}
+
+.max-w-xxxl {
+  max-width: 64rem;
+}
+
+.h-xxxl {
+  height: 64rem;
+}
+
+.min-h-xxxl {
+  min-height: 64rem;
+}
+
+.max-h-xxxl {
+  max-height: 64rem;
+}
+
+.w-xxxxl {
+  width: 75rem;
+}
+
+.min-w-xxxxl {
+  min-width: 75rem;
+}
+
+.max-w-xxxxl {
+  max-width: 75rem;
+}
+
+.h-xxxxl {
+  height: 75rem;
+}
+
+.min-h-xxxxl {
+  min-height: 75rem;
+}
+
+.max-h-xxxxl {
+  max-height: 75rem;
+}
+
+/* ------------------------------- END SIZING ------------------------------- */
 /* -------------------------------------------------------------------------- */
 /*                            DISPLAY AND POSITION                            */
 /* -------------------------------------------------------------------------- */
@@ -4785,9 +5069,49 @@ Once the map is finished, you can use classes that will evaluate to:
   border-style: solid;
 }
 
+.border-t {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.border-r {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.border-l {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
 .border-0 {
   border-width: 0px;
   border-style: solid;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
+  border-top-style: solid;
+}
+
+.border-r-0 {
+  border-right-width: 0px;
+  border-right-style: solid;
+}
+
+.border-b-0 {
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+}
+
+.border-l-0 {
+  border-left-width: 0px;
+  border-left-style: solid;
 }
 
 .border-1 {
@@ -4795,9 +5119,49 @@ Once the map is finished, you can use classes that will evaluate to:
   border-style: solid;
 }
 
+.border-t-1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.border-r-1 {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.border-l-1 {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
 .border-2 {
   border-width: 2px;
   border-style: solid;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.border-r-2 {
+  border-right-width: 2px;
+  border-right-style: solid;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+  border-left-style: solid;
 }
 
 .border-3 {
@@ -4805,14 +5169,74 @@ Once the map is finished, you can use classes that will evaluate to:
   border-style: solid;
 }
 
+.border-t-3 {
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+
+.border-r-3 {
+  border-right-width: 3px;
+  border-right-style: solid;
+}
+
+.border-b-3 {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+.border-l-3 {
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+
 .border-4 {
   border-width: 4px;
   border-style: solid;
 }
 
+.border-t-4 {
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
+  border-right-style: solid;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
 .border-6 {
   border-width: 6px;
   border-style: solid;
+}
+
+.border-t-6 {
+  border-top-width: 6px;
+  border-top-style: solid;
+}
+
+.border-r-6 {
+  border-right-width: 6px;
+  border-right-style: solid;
+}
+
+.border-b-6 {
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
+}
+
+.border-l-6 {
+  border-left-width: 6px;
+  border-left-style: solid;
 }
 
 .rounded-none {
@@ -4824,6 +5248,10 @@ Once the map is finished, you can use classes that will evaluate to:
 }
 
 .rounded-md {
+  border-radius: 0.5rem;
+}
+
+.rounded-lg {
   border-radius: 0.5rem;
 }
 
@@ -4940,6 +5368,42 @@ input[type=month]::-webkit-calendar-picker-indicator {
 .rounded-l-md {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-tl-lg {
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-tr-lg {
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-br-lg {
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-b-lg {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-l-lg {
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
 }
 
 .rounded-tl-full {
@@ -7059,6 +7523,87 @@ input[type=month]::-webkit-calendar-picker-indicator:hover {
 
 /* ------------------------------ CUSTOM INPUTS ----------------------------- */
 /* -------------------------------------------------------------------------- */
+/*                               WORKFLOW INPUTS                              */
+/* -------------------------------------------------------------------------- */
+.workflow-dropdown input[type=text],
+.workflow-tag input[type=text] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=select],
+.workflow-tag input[type=select] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=textarea],
+.workflow-tag input[type=textarea] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=number],
+.workflow-tag input[type=number] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=email],
+.workflow-tag input[type=email] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=password],
+.workflow-tag input[type=password] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=file],
+.workflow-tag input[type=file] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=color],
+.workflow-tag input[type=color] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=tel],
+.workflow-tag input[type=tel] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=url],
+.workflow-tag input[type=url] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=date-time],
+.workflow-tag input[type=date-time] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=time],
+.workflow-tag input[type=time] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=date],
+.workflow-tag input[type=date] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=week],
+.workflow-tag input[type=week] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=month],
+.workflow-tag input[type=month] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=year],
+.workflow-tag input[type=year] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=search],
+.workflow-tag input[type=search] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=address],
+.workflow-tag input[type=address] {
+  padding: 0.33rem 0.5rem;
+}
+.workflow-dropdown input[type=signature],
+.workflow-tag input[type=signature] {
+  padding: 0.33rem 0.5rem;
+}
+
+/* --------------------------- END WORKFLOW INPUTS -------------------------- */
+/* -------------------------------------------------------------------------- */
 /*                                   GLOBAL                                   */
 /* -------------------------------------------------------------------------- */
 html,
@@ -7113,7 +7658,7 @@ footer {
   gap: 2rem;
   justify-items: center;
   border-radius: 0.5rem;
-  box-shadow: 0 15px 60px -35px rgba(50, 111, 189, 0.25);
+  box-shadow: 0 1rem 4rem -2rem rgba(50, 111, 189, 0.25);
 }
 .app-switcher-single:hover {
   background-color: rgba(50, 111, 189, 0.12);
@@ -7139,9 +7684,11 @@ footer {
 }
 
 .backdrop {
-  opacity: 0.25;
+  opacity: 1;
   z-index: 500;
-  position: absolute;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -7151,6 +7698,13 @@ footer {
 .backdrop:not(.active) {
   opacity: 0;
   pointer-events: none;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+}
+
+body.backdrop-open {
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 /* don't think I'm going to use this
@@ -7947,6 +8501,15 @@ $btn-shape-map: (
   transform: translate(-50%, -50%);
 }
 
+/* -------------------------------------------------------------------------- */
+/*                              WORKFLOW BUTTONS                              */
+/* -------------------------------------------------------------------------- */
+.btn.workflow-new-btn {
+  padding: 0.5rem 0.75rem;
+  height: 2em;
+}
+
+/* -------------------------- END WORKFLOW BUTTONS -------------------------- */
 /* don't think I'm going to use this
 $tag-shape-map: (
 	"flat",
@@ -8161,18 +8724,18 @@ $tag-shape-map: (
 .tag.tag--light-green:hover {
   border-color: #7CB342;
 }
-.tag.tag--icon-before::after, .tag.tag--icon-after::after, .tag.tag--icon-only::after {
+.tag.tag--icon-before i, .tag.tag--icon-after i, .tag.tag--icon-only i {
   font-family: "Font Awesome 6 Pro";
   font-weight: 400;
   color: inherit;
   width: 1em;
   height: 1em;
 }
-.tag.tag--icon-before::after {
+.tag.tag--icon-before i {
   order: -10;
   margin-right: 0.75rem;
 }
-.tag.tag--icon-after::after {
+.tag.tag--icon-after i {
   order: 10;
   margin-left: 0.75rem;
 }

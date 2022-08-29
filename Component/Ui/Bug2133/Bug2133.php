@@ -2,8 +2,6 @@
 namespace togasupply;
 
 class _Component_Ui_Bug2133 extends \_Component {
-
-	public $variable = '#hashtag';
 	
 	// Variables go here
 
